@@ -1,0 +1,5 @@
+# Django>=3.2,<3.3
+# djangorestframework>=3.12,<3.13
+
+Django>=4.2,<5.0
+djangorestframework>=3.12,<4.0
