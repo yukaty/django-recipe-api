@@ -9,6 +9,7 @@ from django.contrib.auth.models import (
     PermissionsMixin
 )
 
+
 # UserManager is a class that comes with Django.
 # It provides helper functions for creating and managing users.
 class UserManager(BaseUserManager):
@@ -32,6 +33,7 @@ class UserManager(BaseUserManager):
         user.save(using=self._db)
 
         return user
+
 
 # AbstractBaseUser provides the core implementation of a user model.
 # PermissionsMixin provides the core implementation of permissions.
