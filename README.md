@@ -1,4 +1,5 @@
 # Recipe API
+![GitHub Actions workflow status](https://github.com/yukaty/django-recipe-api/actions/workflows/checks.yml/badge.svg)
 
 Recipe API with Python and Django provides a platform for users to manage recipes.
 
